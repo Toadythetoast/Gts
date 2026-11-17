@@ -2,14 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pokemon GTS</title>
+    <title>Pokémon GTS</title>
+    <style>
+        html, body {
+            margin: 0;
+            background-color: #000000;
+        }
+    </style>
 </head>
 <body>
-    <object type="application/x-shockwave-flash" data="pokemongts.swf" width="1000" height="800">
-        <param name="movie" value="pokemongts.swf" />
-        <param name="quality" value="high" />
-        <p>Please install the <a href="https://ruffle.rs" target="_blank">Ruffle extension</a> to play this file.</p>
-    </object>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td style="background:url(images/html/bg_left.png) top right no-repeat;" width="50%"></td>
+            <td width="1000">
+                <object type="application/x-shockwave-flash" data="pokemongts.swf?2009-06-22" width="1000" height="800" id="pokemongts">
+                    <param name="movie" value="pokemongts.swf?2009-06-22" />
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#000000" />
+                    <param name="scale" value="showall" />
+                    <param name="wmode" value="window" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowFullScreen" value="false" />
+                    <param name="menu" value="true" />
+                    <p style="color: white;">Please install the <a href="https://ruffle.rs" target="_blank">Ruffle extension</a> to play this file.</p>
+                </object>
+            </td>
+            <td style="background:url(images/html/bg_right.png) top left no-repeat;" width="50%"></td>
+        </tr>
+    </table>
 </body>
 </html>
 
