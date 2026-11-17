@@ -1,0 +1,11 @@
+<viewer>
+	<!-- ベースの画像 -->
+	<image>viewer_images/ja/20080919.jpg</image>
+	<!-- バナーのボタン -->
+	<buttons>
+		<button x="40" y="39" width="140" height="68" cursor="HAND" path="http://www.pokemon-gts.net/" target="_self"/>
+		<button x="45" y="1127" width="836" height="163" cursor="HAND2" path="http://www.nintendowifi.com/" target="_blank"/>
+	</buttons>
+	<!-- アンケート -->
+	<questionnaire id="2" x="710" y="685"/>
+	<!--落書き禁止領域-->	<notDrawingArea x="45" y="1127" width="836" height="163" />	<notDrawingArea x="45" y="991" width="131" height="123" />	<notDrawingArea x="720" y="979" width="62" height="62" />	<notDrawingArea x="45" y="283" width="660" height="680" /></viewer>
